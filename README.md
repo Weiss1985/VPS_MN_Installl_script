@@ -8,11 +8,11 @@ apt-get update -y && apt-get upgrade -y && apt-get install git -y && apt-get ins
 
 ► <b>STEP 3 : CLONE INSTALLATION SCRIPT FROM GIT HUB</b>
 
-git clone https://github.com/Weiss1985/mn-install-scrypt.git
+git clone https://github.com/Weiss1985/VPS_MN_Installl_script.git
 
 ► <b>STEP 4 : ENTER INTO FOLDER CLONED FROM GITHUB</b>
 
-cd mn-install-scrypt
+cd VPS_MN_Installl_script
 
 ► <b>STEP 5 : GIVE READ AND WRITE PERMISSION TO DOWNLOADED MN SCRYPT FILE</b>
   
@@ -20,7 +20,7 @@ chmod 755 bitmoneyv2.sh
 
 ► <b>STEP 6 : RUNNING AUTO INSTALL MASTERNODE SCRYPT<b/>
   
-bash bitmoney.sh
+bash bitmoneyv2.sh
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -42,6 +42,6 @@ After clicking on START ALL OR START MISSING , If you get error like "INVALID IP
 startmasternode alias false "YOUR-ALIAS-HERE"
 
 
-<b> BTC DONATION ADDRESS : 1MgexxQu5wxtL2RatwmHFx61R4tgiZPjCh</b>
+<b> BTC DONATION ADDRESS : 17f8ziJjtAmeNiJPzNpSJxp8V56oo9sutB</b>
 
 
