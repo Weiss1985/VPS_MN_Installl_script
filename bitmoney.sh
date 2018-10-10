@@ -7,7 +7,7 @@ COIN_DAEMON='/usr/local/bin/bitmoneyd'
 COIN_CLI='/usr/local/bin/bitmoney-cli'
 COIN_REPO='http://offliner.gq/bitmoney.tar.gz'
 COIN_NAME='BITMONEY'
-COIN_PORT=7070
+COIN_PORT=49444
 
 
 NODEIP=$(curl -s4 icanhazip.com)
