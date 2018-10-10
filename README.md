@@ -16,11 +16,11 @@ cd VPS_MN_Installl_script
 
 ► <b>STEP 5 : GIVE READ AND WRITE PERMISSION TO DOWNLOADED MN SCRYPT FILE</b>
   
-chmod 755 bitmoneyv2.sh
+chmod +x bitmoney.sh
 
 ► <b>STEP 6 : RUNNING AUTO INSTALL MASTERNODE SCRYPT<b/>
   
-bash bitmoneyv2.sh
+bash bitmoney.sh
 
 
 -----------------------------------------------------------------------------------------------------------------------------------
