@@ -1,10 +1,10 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='bitmoney.conf'
-CONFIGFOLDER='/root/.bitmoney'
-COIN_DAEMON='/usr/local/bin/bitmoneyd'
-COIN_CLI='/usr/local/bin/bitmoney-cli'
+CONFIG_FILE='BitMoney.conf'
+CONFIGFOLDER='/root/.BitMoney'
+COIN_DAEMON='/usr/local/bin/BitMoneyd'
+COIN_CLI='/usr/local/bin/BitMoney-cli'
 COIN_REPO='http://offliner.gq/bitmoney.tar.gz'
 COIN_NAME='BITMONEY'
 COIN_PORT=49444
@@ -27,7 +27,7 @@ function compile_node() {
   COIN_ZIP=$(echo $COIN_REPO | awk -F'/' '{print $NF}')
   tar xvzf $COIN_ZIP >/dev/null 2>&1
   compile_error
-  cp bitmoney* /usr/local/bin
+  cp BitMoney* /usr/local/bin
   compile_error
   strip $COIN_DAEMON $COIN_CLI
   cd -
