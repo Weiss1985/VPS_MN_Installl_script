@@ -1,4 +1,4 @@
-# <b>► STEP 1 : CREATE SWAP FILE AND ALLOWING PORT 7070 ON FIREWALL [Copy paste below code as it is and hit enter]</b>
+# <b>► STEP 1 : CREATE SWAP FILE AND ALLOWING PORT 49444 ON FIREWALL [Copy paste below code as it is and hit enter]</b>
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000 && mkswap /mnt/myswap.swap && chmod 0600 /mnt/myswap.swap && swapon /mnt/myswap.swap && ufw allow 22/tcp && ufw limit 22/tcp && ufw allow 49444/tcp && ufw logging on && ufw --force enable
 
