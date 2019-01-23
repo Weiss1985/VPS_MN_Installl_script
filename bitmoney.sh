@@ -5,7 +5,7 @@ CONFIG_FILE='BitMoney.conf'
 CONFIGFOLDER='/root/.BitMoney'
 COIN_DAEMON='/usr/local/bin/BitMoneyd'
 COIN_CLI='/usr/local/bin/BitMoney-cli'
-COIN_REPO='http://offliner.gq/bitmoney.tar.gz'
+COIN_REPO='https://github.com/CryptVenture/BitMoneyV22/releases/download/2.2.0.1/BitMoney-2.2.0.1-Linux-16.04.tar.gz'
 COIN_NAME='BITMONEY'
 COIN_PORT=49444
 
@@ -159,17 +159,7 @@ maxconnections=256
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-addnode=[2001:19f0:7402:14b9:5400:1ff:feb5:a85f]:49444
-addnode=[2001:19f0:7402:4e6:5400:1ff:feb5:a860]:49444
-addnode=[2a02:c98:1001:3000::6269:7411]:49444
-addnode=[2001:19f0:7402:635:2ebc::3]:49444
-addnode=[2a02:c207:3003:2506:eede::2]:49444
-addnode=[2a00:6d40:72:a67e:be9e::7]:49444
-addnode=95.179.193.119
-addnode=45.32.176.66
-addnode=95.179.197.142
-addnode=95.179.200.18
-addnode=95.179.200.20
+
 EOF
 }
 
